@@ -1,1 +1,364 @@
-liuyuan
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+
+
+<html>
+
+<head>
+  <meta name=viewport content="width=800">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+    
+
+
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+    
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px
+    }
+    
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+    }
+    
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700
+    }
+    
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
+    
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
+    }
+    
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    span.highlight {
+      background-color: #ffffd0;
+    }
+
+html {
+  height: 98%;
+}
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+.footer {
+  grid-row-start: 3;
+  grid-row-end: 2;
+}
+
+
+  </style>
+  <link rel="icon" type="image/png" href="images/zju.jpg">
+  <title>Yuan Liu</title>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="67%" valign="middle">
+              <p align="center">
+                <name>Yuan Liu</name>
+              </p>
+              <p>
+                I'm now working as a RA in the <a href="http://www.cad.zju.edu.cn/english.html">CAD&CG Lab</a> at 
+                <a href="http://www.zju.edu.cn/english/">Zhejiang University</a> advised by Prof. <a href="http://www.cad.zju.edu.cn/home/xzhou/">Xiaowei Zhou</a>. 
+                I received my master degree in <a href="http://www.lmars.whu.edu.cn/en/">LIESMARS</a> at Wuhan University advised by Prof. <a href="">Bisheng Yang</a> in 2018.
+                I'm interested in research topics about 3D computer vision including point cloud processing, pose estimation and shape reconstruction.
+              </p>
+              <p align=center> 
+                <a href="mailto:liuyuan@cad.zju.edu.cn">Email</a> &nbsp/&nbsp
+                <a href="https://github.com/liuyuan-pal">Github</a> 
+              </p>
+
+
+            </td>
+            <td width="33%">
+              <img src="">
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Publications</heading>
+
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr onmouseout="unprocessing_stop()" onmouseover="unprocessing_start()">
+            <td width="25%" >
+              <div class="one">
+                <div class="two" id='unprocessing_image'><img src='images/pvnet.png' width="100%"></div>
+                <img src='images/pvnet.png' width="100%">
+              </div>
+              <script type="text/javascript">
+                function unprocessing_start() {
+                  document.getElementById('unprocessing_image').style.opacity = "1";
+                }
+
+                function unprocessing_stop() {
+                  document.getElementById('unprocessing_image').style.opacity = "0";
+                }
+                unprocessing_stop()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://arxiv.org/pdf/1812.11788.pdf">
+                <papertitle>PVNet: Pixel-wise Voting Network for 6DoF Pose Estimation</papertitle>
+              </a>
+              <br>
+              Sida Peng*,
+	      <strong>Yuan Liu</strong>*, 
+              Qixing Huang,
+              Xiaowei Zhou,
+              Hujun Bao
+              <br>
+              <em>CVPR</em>, 2019 (oral) <em>* equal contribution</em> &nbsp
+              <br>
+              <a href="https://zju3dv.github.io/pvnet/">project page</a>
+              <p>
+              </p>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="unprocessing_stop()" onmouseover="unprocessing_start()">
+              <td width="25%">
+                <div class="one">
+                  <div class="two" id='unprocessing_image'><img src='images/road.png' width="100%"></div>
+                  <img src='images/road.png' width="100%">
+                </div>
+                <script type="text/javascript">
+                  function unprocessing_start() {
+                    document.getElementById('unprocessing_image').style.opacity = "1";
+                  }
+  
+                  function unprocessing_stop() {
+                    document.getElementById('unprocessing_image').style.opacity = "0";
+                  }
+                  unprocessing_stop()
+                </script>
+              </td>
+              <td valign="middle" width="75%">
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0924271617300175">
+                  <papertitle>3D Local Feature BKD to Extract Road Information from Mobile Laser Scanning Point Clouds</papertitle>
+                </a>
+                <br>
+                Bisheng Yang,
+          <strong>Yuan Liu</strong>, 
+                Zhen Dong,
+                Fuxun Liang,
+                Bijun Li,
+                Xiangyang Peng
+                <br>
+                <em>ISPRS journal of photogrammetry and remote sensing</em>, 2017 &nbsp
+                <br>
+                <p>
+                </p>
+                <p></p>
+              </td>
+            </tr>
+
+            <tr onmouseout="unprocessing_stop()" onmouseover="unprocessing_start()">
+                <td width="25%">
+                  <div class="one">
+                    <div class="two" id='unprocessing_image'><img src='images/bsc.png' width="100%"></div>
+                    <img src='images/bsc.png' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function unprocessing_start() {
+                      document.getElementById('unprocessing_image').style.opacity = "1";
+                    }
+    
+                    function unprocessing_stop() {
+                      document.getElementById('unprocessing_image').style.opacity = "0";
+                    }
+                    unprocessing_stop()
+                  </script>
+                </td>
+                <td valign="middle" width="75%">
+                  <a href="https://www.sciencedirect.com/science/article/pii/S0924271617300199">
+                    <papertitle>A Novel Binary Shape Context for 3D Local Surface Description</papertitle>
+                  </a>
+                  <br>
+                  Zhen Dong,
+                  Bisheng Yang,
+            <strong>Yuan Liu</strong>, 
+                  Fuxun Liang,
+                  Bijun Li,
+                  Yufu Zang
+                  <br>
+                  <em>ISPRS journal of photogrammetry and remote sensing</em>, 2017 &nbsp
+                  <br>
+                  <p>
+                  </p>
+                  <p></p>
+                </td>
+            </tr>
+
+            <tr onmouseout="unprocessing_stop()" onmouseover="unprocessing_start()">
+                <td width="25%">
+                  <div class="one">
+                    <div class="two" id='unprocessin.g_image'><img src='images/agg.png' width="100%"></div>
+                    <img src='images/agg.png' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function unprocessing_start() {
+                      document.getElementById('unprocessing_image').style.opacity = "1";
+                    }
+    
+                    function unprocessing_stop() {
+                      document.getElementById('unprocessing_image').style.opacity = "0";
+                    }
+                    unprocessing_stop()
+                  </script>
+                </td>
+                <td valign="middle" width="75%">
+                  <a href="https://www.sciencedirect.com/science/article/abs/pii/S0924271617301557">
+                    <papertitle>Computing Multiple Aggregation Levels and Contextual Features for Road Facilities Recognition Using Mobile Laser Scanning Data</papertitle>
+                  </a>
+                  <br>
+                  Zhen Dong,
+                  Bisheng Yang,
+            <strong>Yuan Liu</strong>, 
+                  Fuxun Liang,
+                  Yongjun Wang
+                  <br>
+                  <em>ISPRS journal of photogrammetry and remote sensing</em>, 2017 &nbsp
+                  <br>
+                  <p>
+                  </p>
+                  <p></p>
+                </td>
+            </tr>
+  
+            <tr onmouseout="unprocessing_stop()" onmouseover="unprocessing_start()">
+                <td width="25%">
+                  <div class="one">
+                    <div class="two" id='unprocessin.g_image'><img src='images/sfp.png' width="100%"></div>
+                    <img src='images/sfp.png' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function unprocessing_start() {
+                      document.getElementById('unprocessing_image').style.opacity = "1";
+                    }
+    
+                    function unprocessing_stop() {
+                      document.getElementById('unprocessing_image').style.opacity = "0";
+                    }
+                    unprocessing_stop()
+                  </script>
+                </td>
+                <td valign="middle" width="75%">
+                  <a href="https://www.sciencedirect.com/science/article/abs/pii/S092427161500266X">
+                    <papertitle>Automatic Registration of Large-scale Urban Scene Point Clouds Based on Semantic Feature Points</papertitle>
+                  </a>
+                  <br>
+                  Bisheng Yang,
+                  Zhen Dong,
+                  Fuxun Liang,
+            <strong>Yuan Liu</strong>
+                  <br>
+                  <em>ISPRS journal of photogrammetry and remote sensing</em>, 2016 &nbsp
+                  <br>
+                  <p>
+                  </p>
+                  <p></p>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107865707-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107865707-2');
+</script>
+
+
+
+        </td>
+
+    </tr>
+
+  </table>
+ <div class="content">
+  <!-- content -->
+</div>
+
+
+
+
+<div class="footer" align='center'>
+<a href="https://github.com/jonbarron/jonbarron_website">Designed by Jon</a>
+</div>
+
+
+</body>
+
+</html>
+
