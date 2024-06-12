@@ -46,6 +46,18 @@ div.content {
     clear: both;
     overflow: auto;
 }
+div.content-subpage {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+    max-width: 1000px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    overflow: auto;
+}
 
 .publication-table {
     width: 100%;
@@ -140,6 +152,10 @@ div.paper_materials{
 	font-size:14px;
 
 }
+div.paper_authors{
+	font-size:14px;
+
+}
 
 div.talk_title {
     font-weight: bold;
@@ -185,9 +201,8 @@ div.tab-name, div.tab-link {
 div.tab-name {
     float:left;
     padding-left:30px;
-    font-size:150%;
-	
-    padding-top:5px;
+    font-size:32px;
+    padding-top:3px;
 }
 
 div.tab-link {

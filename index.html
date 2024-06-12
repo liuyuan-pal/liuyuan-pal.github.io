@@ -13,7 +13,9 @@
          <div id="header">
             <div class="tab">
                <!-- <div class="tab-name"><a style="text-decoration: none;" href="#">Cheng Lin</a></div> -->
+               <div class="tab-link"><a style="text-decoration: none;" href="#mentor">Mentoring</a></div>
                <div class="tab-link"><a style="text-decoration: none;" href="#publications">Publications</a></div>
+               <div class="tab-link"><a style="text-decoration: none;" href="#news">Openings</a></div>
                <!-- <div class="tab-link"><a style="text-decoration: none;" href="#">Home</a></div> -->
             </div>
          </div>
@@ -28,16 +30,24 @@
             <tbody>
                <tr>
                   <td class="image-column">
-                     <img src="./images/selfie.jpg" alt="Photo" width="220" >
+                     <img src="./images/selfie_new.jpg" alt="Photo" width="220" >
                   </td>
                   <td class="description-column">
                      <div class="content text">
                         <h3>Yuan Liu (刘缘)</h3>
-						<h4>Ph.D. Student at HKU </h4>
+						      <h4>Incoming Assistant Professor@HKUST, PhD@HKU </h4>
                         <p>yuanly@connect.hku.hk</p>
-						I'm currently a final-year PhD student at HKU advised by Prof. <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a> and Prof. <a href="https://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a>. In 2018-2019, I worked in CAD&amp;CG lab of Zhejiang University advised by Prof. <a href="https://xzhou.me/">Xiaowei Zhou</a>. I received my master degree at LIESMARS of Wuhan University advised by Prof. <a href="http://www.lmars.whu.edu.cn/enbisheng-yang/">Bisheng Yang</a>. 
-                  My research interest includes computer graphics and 3D computer vision. I currently work on topics about 3D AIGC including neural rendering/representations and diffusion generative models. 
-<!--                  <p style="color:red; font-weight:bold;">I'll graduate before Jul. 2024 and I'm looking for a research position on CG and 3D CV (Diffusion/NeRF/NeuS/GS)!</p>-->
+                  <p style="text-align: justify">
+                     I'm visiting NTU as a PostDoc working with Prof. <a href="">Ziwei Liu</a>. 
+                     I obtained my PhD degree at HKU advised by Prof. <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a> and Prof. <a href="https://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a>. 
+                     I'm one of the organizers of <a href="">AnySyn3D</a>. My research mainly concentrates on 3D vision and graphics. 
+                     I currently work on topics about 3D AIGC including neural rendering, neural representations, and 3D generative models.
+                  </p>
+                  
+                  <!-- In 2018-2019, I worked in CAD&amp;CG lab of Zhejiang University advised by Prof. <a href="https://xzhou.me/">Xiaowei Zhou</a>.  -->
+                  <!-- I received my master degree at LIESMARS of Wuhan University advised by Prof. <a href="http://www.lmars.whu.edu.cn/enbisheng-yang/">Bisheng Yang</a>.  -->
+                  <!-- My research interest includes computer graphics and 3D computer vision. I currently work on topics about 3D AIGC including neural rendering/representations and diffusion generative models.  -->
+                  <!-- <p style="color:red; font-weight:bold;">I'll graduate before Jul. 2024 and I'm looking for a research position on CG and 3D CV (Diffusion/NeRF/NeuS/GS)!</p> -->
                         <p>
                         </p>
 						<p class = "news">
@@ -60,29 +70,85 @@
       </div>
 	  
       <div class="content">
+         <a name="news"></a>
+         <h3>Openings</h3>
+         <hr>
+         <p>
+         I will join <a href="https://isd.hkust.edu.hk/">ISD HKUST</a> as an assistant professor in 2025 spring. 
+         <b style="color:red">I'm going to recruit PhD students (start from 2025 fall), research assistants, and visiting students. </b>
+         We will focus on utilizing neural rendering/representations (NeRF, NeuS, 3D GS), 3D Generative Models and 3D LLMs for solving the following tasks.
+         </p>
+         <ol>
+            <li>AI for 3D Asset Generation.</li>
+            <li>3D/4D Video Generation and Editing.</li>
+            <li>City-scale 3D Reconstruction and Analysis.</li>
+         </ol>
+         <p>
+         If you are interested in working with me on these topics, please fill the Google form 
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLSehvKvgl7eJc8n8qonDb5tBwkMd4h5zQYIDKxmsD5X-IiybTQ/viewform?usp=sf_link">here</a> 
+         and drop an email to <a href="mailto:yuanly@connect.hku.hk">yuanly@connect.hku.hk</a>.
+         I have experience in mentoring master or junior PhD students. Refer to the <a href="#mentor">Mentoring</a> section for more details.
+         </p>
 
          <a name="publications"></a>
-         <h3>Publications</h3>
-		  <hr>
+         <h3>Publications (Selected / <a href="full-pub.html">Full Publication List</a>)</h3>
+		   <hr>
+         <!-- <p> Full publication list can be found <a href="full-pub.html">here</a>.</p> -->
         <b>*Equal contribution †Corresponding author</b>
          <table class="publication-table">
          
+         
+         <tr>
+            <td class="image-column">
+               <div class="demo-video">
+                  <img src="./images/dreammat.jpg" class="publication-image">
+               </div>
+            </td>
+            <td class="description-column">
+                  <div class="paper_title">DreamMat: High-quality PBR Material Generation with Geometry- and Light-aware Diffusion Models</div>
+                  <div class="paper_authors">
+                     Yuqing Zhang*, <b>Yuan Liu</b>*, Zhiyu Xie, Lei Yang, Zhongyuan Liu, Mengzhou Yang, Runze Zhang, Qilong Kou, Cheng Lin, Wenping Wang, Xiaogang Jin†
+                  </div>
+                  <div class="paper_venue"> <b>SIGGRAPH 2024 (TOG)</b> </div>
+               <div class="paper_materials">
+               <span class="link"><a target=_blank href="https://arxiv.org/abs/2405.17176">[Paper]</a></span>
+               <span class="link"><a target=_blank href="https://zzzyuqing.github.io/dreammat.github.io/">[Project Page]</a></span>
+               <span class="link"><a target=_blank href="https://github.com/zzzyuqing/DreamMat">[Code]</a></span>
+            </div>
+            </td>
+            </tr>
+
          <tr>
             <td class="image-column">
                <div class="demo-video"> <video width=100% height=100% muted autoplay loop>
-               <source src="images/syncdreamer.mp4" type="video/mp4">
+               <source src="images/era3d-lr.mp4" type="video/mp4">
+               </video></div>
+            </td>
+            <td class="description-column">
+                  <div class="paper_title">Era3D: High-Resolution Multiview Diffusion using Efficient Row-wise Attention</div>
+                  <div class="paper_authors">
+                        Peng Li*, <b>Yuan Liu*</b>, Xiaoxiao Long†, Feihu Zhang, Cheng Lin, Mengfei Li, Xingqun Qi, Shanghang Zhang, Wei Xue, Wenhan Luo, Ping Tan, Wenping Wang, Qifeng Liu, Yike Guo†
+                  </div>
+                  <div class="paper_venue"> <b>arXiv 2024</b> </div>
+               <div class="paper_materials">
+               <span class="link"><a target=_blank href="https://arxiv.org/abs/2405.11616">[Paper]</a></span>
+               <span class="link"><a target=_blank href="https://penghtyx.github.io/Era3D/">[Project Page]</a></span>
+               <span class="link"><a target=_blank href="https://github.com/pengHTYX/Era3D">[Code]</a></span>
+               <span class="link"><a target=_blank href="https://huggingface.co/spaces/pengHTYX/Era3D_MV_demo">[Live demo]</a></span>
+            </div>
+            </td>
+            </tr>
+
+         <tr>
+            <td class="image-column">
+               <div class="demo-video"> <video width=100% height=100% muted autoplay loop>
+               <source src="images/syncdreamer-lr.mp4" type="video/mp4">
                </video></div>
             </td>
             <td class="description-column">
                   <div class="paper_title">SyncDreamer: Generating Multiview-consistent Images from a Single-view Image</div>
                   <div class="paper_authors">
-                  <a class="author" ><b>Yuan Liu*</b></a>,
-                  <a class="author" target=_blank href="https://clinplayer.github.io/">Cheng Lin*</a>,
-                  <a class="author" target=_blank >Zijiao Zeng</a>,	
-                  <a class="author" target=_blank href="https://www.xxlong.site/">Xiaoxiao Long†</a>,
-                  <a class="author" target=_blank href="https://lingjie0206.github.io/">Lingjie Liu</a>,	  
-                  <a class="author" target=_blank href="https://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a>,
-                  <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang†</a>	  
+                     <b>Yuan Liu*</b>, Cheng Lin*, Zijiao Zeng, Xiaoxiao Long†, Lingjie Liu, Taku Komura, Wenping Wang†
                   </div>
                   <div class="paper_venue"> <b>ICLR 2024 (Spotlight)</b> </div>
                <div class="paper_materials">
@@ -96,48 +162,14 @@
 
          <tr>
             <td class="image-column">
-               <img src="./images/freereg.jpg" height=100px width=140px>
-            </td>
-            <td class="description-column">
-                  <div class="paper_title">FreeReg: Image-to-Point Cloud Registration Leveraging Pretrained Diffusion Models and Monocular Depth Estimators</div>
-                  <div class="paper_authors">
-                  <a class="author" target=_blank href="https://hpwang-whu.github.io/">Haiping Wang*</a>,
-                  <a class="author" ><b>Yuan Liu*</b></a>,
-                  <a class="author" target=_blank href="https://www.polyu.edu.hk/aae/people/academic-staff/dr-wang-bing/">Bing Wang</a>,
-                  <a class="author" target=_blank href="https://yujingsun.github.io/">Yujing Sun</a>,
-                  <a class="author" target=_blank href="https://dongzhenwhu.github.io/">Zhen Dong†</a>,
-                  <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>,
-                  <a class="author" target=_blank href="http://www.lmars.whu.edu.cn/enbisheng-yang/">Bisheng Yang†</a> 
-                  </div>
-                  <div class="paper_venue"> <b>ICLR 2024 </b> </div>
-               <div class="paper_materials">
-               <span class="link"><a target=_blank href="https://arxiv.org/abs/2310.03420">[Paper]</a></span>
-               <span class="link"><a target=_blank href="https://whu-usi3dv.github.io/FreeReg/">[Project Page]</a></span>
-               <span class="link"><a target=_blank href="https://github.com/WHU-USI3DV/FreeReg">[Code]</a></span>
-            </div>
-            </td>
-            </tr>
-
-         <tr>
-            <td class="image-column">
                <div class="demo-video"> <video width=100% height=100% muted autoplay loop>
-               <source src="images/wonder3d.mp4" type="video/mp4">
+               <source src="images/wonder3d-lr.mp4" type="video/mp4">
                </video></div>
             </td>
             <td class="description-column">
                   <div class="paper_title">Wonder3D: Single Image to 3D using Cross-Domain Diffusion</div>
                   <div class="paper_authors">
-                  <a class="author" target=_blank href="https://www.xxlong.site/">Xiaoxiao Long*</a>,  
-                  <a class="author" target=_blank href="https://scholar.google.com/citations?user=b7ZJV9oAAAAJ&hl=en">Yuan-Chen Guo*</a>,  
-                  <a class="author" target=_blank href="https://clinplayer.github.io/">Cheng Lin</a>,	
-                  <a class="author" ><b>Yuan Liu</b></a>,
-                  <a class="author" target=_blank href="https://frank-zy-dou.github.io/">Zhiyang Dou</a>,	
-                  <a class="author" target=_blank href="https://lingjie0206.github.io/">Lingjie Liu</a>,	  
-                  <a class="author" target=_blank href="https://yuexinma.me/">Yuexin Ma</a>,	  
-                  <a class="author" target=_blank href="https://scholar.google.com/citations?user=AWtV-EQAAAAJ&hl=en">Song-Hai Zhang</a>,	  
-                  <a class="author" target=_blank href="https://people.mpi-inf.mpg.de/~mhaberma/">Marc Habermann</a>,	  
-                  <a class="author" target=_blank href="https://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a>,
-                  <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>	  
+                  Xiaoxiao Long*, Yuan-Chen Guo*, Cheng Lin†, <b>Yuan Liu</b>, Zhiyang Dou, Lingjie Liu, Yuexin Ma, Song-Hai Zhang, Marc Habermann, Christian Theobalt, Wenping Wang†
                   </div>
                   <div class="paper_venue"> <b>CVPR 2024 (Highlight)</b> </div>
                <div class="paper_materials">
@@ -152,105 +184,15 @@
          <tr>
             <td class="image-column">
                <div class="demo-video"> <video width=100% height=100% muted autoplay loop>
-               <source src="images/gaussianshader.mp4" type="video/mp4">
-               </video></div>
-            </td>
-            <td class="description-column">
-                  <div class="paper_title">GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces</div>
-                  <div class="paper_authors">
-                  <a class="author" target=_blank href="https://github.com/Asparagus15">Yingwenqi Jiang</a>,
-                  <a class="author" target=_blank href="https://github.com/donjiaking">Jiadong Tu</a>,
-                  <a class="author" ><b>Yuan Liu</b></a>,
-                  <a class="author" target=_blank href="https://gaoxifeng.github.io/">Xifeng Gao</a>,
-                  <a class="author" target=_blank href="https://www.xxlong.site/">Xiaoxiao Long&dagger;</a>,
-                  <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>,
-                  <a class="author" target=_blank href="https://yuexinma.me/">Yuexin Ma&dagger;</a>
-                  </div>
-                  <div class="paper_venue"> <b>CVPR 2024</b> </div>
-               <div class="paper_materials">
-               <span class="link"><a target=_blank href="https://arxiv.org/abs/2311.17977">[Paper]</a></span>
-               <span class="link"><a target=_blank href="https://asparagus15.github.io/GaussianShader.github.io/">[Project Page]</a></span>
-               <span class="link"><a target=_blank href="https://github.com/Asparagus15/GaussianShader">[Code]</a></span>
-            </div>
-            </td>
-            </tr>
-
-         <tr>
-            <td class="image-column">
-               <img src="./images/fig_virtual_try_on.gif" width=140px>
-            </td>
-            <td class="description-column">
-                  <div class="paper_title">Surf-D: Generating High-Quality Surfaces of Arbitrary Topologies Using Diffusion Models</div>
-                  <div class="paper_authors">
-                    <a class="author" href="https://yzmblog.github.io/" target="_blank">Zhengming Yu*</a>,
-                    <a class="author" href="https://frank-zy-dou.github.io/" target="_blank">Zhiyang Dou*</a>,
-                    <a class="author" href="https://www.xxlong.site/" target="_blank">Xiaoxiao Long</a>,
-                    <a class="author" href="https://clinplayer.github.io/" target="_blank">Cheng Lin</a>,
-                    <a class="author" href="https://kunkun0w0.github.io/" target="_blank">Zekun Li</a>,
-                    <a class="author" ><b>Yuan Liu</b></a>,
-                    <a class="author" href="https://niessnerlab.org/members/norman_mueller/profile.html" target="_blank">Norman M&uuml;ller</a>,
-                    <a class="author" href="https://i.cs.hku.hk/~taku/">Taku Komura</a>,
-                    <a class="author" href="https://people.mpi-inf.mpg.de/~mhaberma/" target="_blank">Marc Habermann</a>,
-                    <a class="author" href="https://people.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>,
-                    <a class="author" href="https://people.tamu.edu/~xinli/" target="_blank">Xin Li</a>,
-                    <a class="author" href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html">Wenping Wang</a>,
-                  </div>
-              <div class="paper_venue"> <b>arXiv 2023</b> </div>
-               <div class="paper_materials">
-               <span class="link"><a target=_blank href="https://arxiv.org/pdf/2311.17050.pdf">[Paper]</a></span>
-               <span class="link"><a target=_blank href="https://yzmblog.github.io/projects/SurfD/">[Project Page]</a></span>
-               <span class="link"><a target=_blank href="https://github.com/Yzmblog/SurfD">[Code]</a></span>
-            </div>
-            </td>
-            </tr>
-
-         <tr>
-            <td class="image-column">
-               <div class="demo-video"> <video width=100% height=100% muted autoplay loop>
-               <source src="images/sosmpl.mp4" type="video/mp4">
-               </video></div>
-            </td>
-            <td class="description-column">
-                  <div class="paper_title">Disentangled Clothed Avatar Generation from Text Descriptions</div>
-                  <div class="paper_authors">
-                    <a class="author" href="https://shanemankiw.github.io/" target="_blank">Jionghao Wang</a>,
-                    <a class="author" ><b>Yuan Liu</b></a>,
-                    <a class="author" href="https://frank-zy-dou.github.io/" target="_blank">Zhiyang Dou</a>,
-                    <a class="author" href="https://yzmblog.github.io/" target="_blank">Zhengming Yu</a>,
-                    <a class="author" href="https://yzmblog.github.io/" target="_blank">Yongqing Liang</a>,
-                    <a class="author" href="https://people.tamu.edu/~xinli/" target="_blank">Xin Li</a>,
-                    <a class="author" href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html">Wenping Wang</a>,
-                    <a class="author" href="https://medialab.sjtu.edu.cn/">Rong Xie</a>,
-                    <a class="author" href="https://medialab.sjtu.edu.cn/author/li-song/">Li Song</a>
-                  </div>
-              <div class="paper_venue"> <b>arXiv 2023</b> </div>
-               <div class="paper_materials">
-               <span class="link"><a target=_blank href="https://arxiv.org/abs/2312.05295">[Paper]</a></span>
-               <span class="link"><a target=_blank href="https://shanemankiw.github.io/SO-SMPL/">[Project Page]</a></span>
-               <span class="link"><a target=_blank href="https://github.com/shanemankiw/SO-SMPL">[Code]</a></span>
-            </div>
-            </td>
-            </tr>
-
-         <tr>
-            <td class="image-column">
-               <div class="demo-video"> <video width=100% height=100% muted autoplay loop>
-               <source src="images/nero.mp4" type="video/mp4">
+               <source src="images/nero-lr.mp4" type="video/mp4">
                </video></div>
             </td>
             <td class="description-column">
                   <div class="paper_title">NeRO: Neural Geometry and BRDF Reconstruction of Reflective Objects from Multiview Images</div>
                   <div class="paper_authors">
-                  <a class="author" ><b>Yuan Liu</b></a>,
-                  <a class="author" target=_blank href="https://totoro97.github.io/">Peng Wang</a>,
-                  <a class="author" target=_blank href="https://clinplayer.github.io/">Cheng Lin</a>,	
-                  <a class="author" target=_blank href="https://www.xxlong.site/">Xiaoxiao Long</a>,  
-                  <a class="author" target=_blank href="https://jiepengwang.github.io/">Jiepeng Wang</a>,  
-                  <a class="author" target=_blank href="https://lingjie0206.github.io/">Lingjie Liu</a>,	  
-                  <a class="author" target=_blank href="https://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a>,
-                  <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>	  
+                  <b>Yuan Liu</b></a>, Peng Wang, Cheng Lin, Xiaoxiao Long, Jiepeng Wang, Lingjie Liu, Taku Komura, Wenping Wang
                   </div>
-                  <div class="paper_venue"> <b>SIGGRAPH 2023</b> </div>
+                  <div class="paper_venue"> <b>SIGGRAPH 2023 (TOG)</b> </div>
                <div class="paper_materials">
                <span class="link"><a target=_blank href="https://arxiv.org/abs/2305.17398">[Paper]</a></span>
                <span class="link"><a target=_blank href="https://liuyuan-pal.github.io/NeRO/">[Project Page]</a></span>
@@ -262,20 +204,13 @@
          <tr>
             <td class="image-column">
                <div class="demo-video"> <video width=100% height=100% muted autoplay loop>
-               <source src="images/f2nerf.mp4" type="video/mp4">
+               <source src="images/f2nerf-lr.mp4" type="video/mp4">
                </video></div>
             </td>
             <td class="description-column">
                   <div class="paper_title">F<sup>2</sup>NeRF: Fast Neural Radiance Field Training with Free Camera Trajectories</div>
                   <div class="paper_authors">
-                  <a class="author" target=_blank href="https://totoro97.github.io/">Peng Wang*</a>,
-                  <a class="author" ><b>Yuan Liu*</b></a>,
-                  <a class="author" target=_blank href="https://frozenburning.github.io/">Zhaoxi Chen</a>,	
-                  <a class="author" target=_blank href="https://liuziwei7.github.io/">Ziwei Liu</a>,	  
-                  <a class="author" target=_blank href="https://lingjie0206.github.io/">Lingjie Liu</a>,	  
-                  <a class="author" target=_blank href="https://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a>,
-                  <a class="author" target=_blank href="http://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a>,
-                  <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>	  
+                  Peng Wang*, <b>Yuan Liu*</b>, Zhaoxi Chen, Ziwei Liu, Lingjie Liu, Taku Komura, Christian Theobalt, Wenping Wang
                   </div>
                   <div class="paper_venue"> <b>CVPR 2023 (Highlight)</b> </div>
                <div class="paper_materials">
@@ -288,70 +223,14 @@
          
          <tr>
             <td class="image-column">
-               <img src="./images/SGHR.png" height=140px width=140px>
-            </td>
-            <td class="description-column">
-                  <div class="paper_title">Robust Multiview Point Cloud Registration with Reliable Pose Graph Initialization and History Reweighting</div>
-                  <div class="paper_authors">
-                  <a class="author" target=_blank href="https://hpwang-whu.github.io/">Haiping Wang*</a>,
-                  <a class="author" ><b>Yuan Liu*</b></a>,
-                  <a class="author" target=_blank href="https://dongzhenwhu.github.io/">Zhen Dong†</a>,
-                  <a class="author" target=_blank href="http://yulanguo.me/">Yulan Guo</a>,	  
-                  <a class="author" target=_blank href="https://yushen-liu.github.io/">Yu-Shen Liu</a>,	
-                  <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>,
-                  <a class="author" target=_blank href="http://www.lmars.whu.edu.cn/enbisheng-yang/">Bisheng Yang†</a> 
-                  </div>
-                  <div class="paper_venue"> <b>CVPR 2023</b> </div>
-               <div class="paper_materials">
-               <span class="link"><a target=_blank href="https://arxiv.org/abs/2304.00467">[Paper]</a></span>
-               <span class="link"><a target=_blank href="https://github.com/WHU-USI3DV/SGHR">[Code]</a></span>
-            </div>
-            </td>
-            </tr>
-         
-            <tr>
-               <td class="image-column">
-                     <img src="./images/NeuralUDF.png" height=120px width=140px>
-               </td>
-               <td class="description-column">
-                     <div class="paper_title">NeuralUDF: Learning Unsigned Distance Fields for Multi-view Reconstruction of Surfaces with Arbitrary Topologies</div>
-                     <div class="paper_authors">
-                     <a class="author" target="_blank" href=" https://www.xxlong.site/">Xiaoxiao Long</a>,
-                     <a class="author" target=_blank href="https://clinplayer.github.io/">Cheng Lin</a>,	
-                     <a class="author" target="_blank" href="https://lingjie0206.github.io/">Lingjie Liu</a>,
-                     <a class="author" ><b>Yuan Liu</b></a>,
-                     <a class="author" target=_blank href="https://totoro97.github.io/">Peng Wang</a>,
-                     <a class="author" target="_blank" href="https://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a>,
-                     <a class="author" target="_blank" href="https://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a>,
-                     <a class="author" target="_blank" href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>  
-                     </div>
-                     <div class="paper_venue"> <b>CVPR 2023</b> </div>
-                  <div class="paper_materials">
-                     <span class="link"><a target=_blank href="https://arxiv.org/abs/2211.14173">[Paper]</a></span>
-                  <span class="link"><a target=_blank href="https://www.xxlong.site/NeuralUDF/">[Project Page]</a></span>
-                  <span class="link"><a target=_blank href="https://github.com/xxlong0/NeuralUDF">[Code]</a></span>
-               </div>
-               </td>
-               </tr>
-
-         <tr>
-            <td class="image-column">
                <img src="./images/roreg.jpg" height=120px width=140px>
             </td>
             <td class="description-column">
                   <div class="paper_title">RoReg: Pairwise Point Cloud Registration with Oriented Descriptors and Local Rotations</div>
                   <div class="paper_authors">
-                  <a class="author" target=_blank href="https://hpwang-whu.github.io/">Haiping Wang*</a>,
-                  <a class="author" ><b>Yuan Liu*</b></a>,
-                  <a class="author" target=_blank href="https://qingyonghu.github.io/">Qingyong Hu</a>,
-                  <a class="author" target=_blank href="http://www.cs.ox.ac.uk/people/bing.wang/">Bing Wang</a>,
-                  <a class="author" target=_blank href="">Jianguo Chen</a>,
-                  <a class="author" target=_blank href="https://dongzhenwhu.github.io/">Zhen Dong†</a>,
-                  <a class="author" target=_blank href="http://yulanguo.me/">Yulan Guo</a>,	  
-                  <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>,
-                  <a class="author" target=_blank href="http://www.lmars.whu.edu.cn/enbisheng-yang/">Bisheng Yang†</a> 
+                  Haiping Wang*, <b>Yuan Liu*</b>, Qingyong Hu, Bing Wang, Jianguo Chen, Zhen Dong†, Yulan Guo, Wenping Wang, Bisheng Yang†
                   </div>
-                  <div class="paper_venue"> <b>TPAMI 2023 *Equal contribution †Corresponding author</b> </div>
+                  <div class="paper_venue"> <b>TPAMI 2023</b> </div>
                <div class="paper_materials">
                <span class="link"><a target=_blank href="https://ieeexplore.ieee.org/document/10044259">[Paper]</a></span>
                <span class="link"><a target=_blank href="https://hpwang-whu.github.io/RoReg/">[Project Page]</a></span>
@@ -363,19 +242,13 @@
 			<tr>
 				<td class="image-column">
 				  <div class="demo-video"> <video width=100% height=100% muted autoplay loop>
-					<source src="images/gen6d.mp4" type="video/mp4">
+					<source src="images/gen6d-lr.mp4" type="video/mp4">
 				  </video></div>
 				</td>
 				<td class="description-column">
                   <div class="paper_title">Gen6D: Generalizable Model-Free 6-DoF Object Pose Estimation from RGB Images</div>
                   <div class="paper_authors">
-				     <a class="author" ><b>Yuan Liu</b></a>,
-					 <a class="author" target=_blank href="https://scholar.google.com/citations?user=bH6lBeMAAAAJ">Yilin Wen</a>,
-					 <a class="author" target=_blank href="https://pengsida.net/">Sida Peng</a>,
-                     <a class="author" target=_blank href="https://clinplayer.github.io/">Cheng Lin</a>,	
-					 <a class="author" target=_blank href="https://www.xxlong.site/">Xiaoxiao Long</a>,  
-					 <a class="author" target=_blank href="https://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a>,
-                     <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>	  
+				       <b>Yuan Liu</b>, Yilin Wen, Sida Peng, Cheng Lin, Xiaoxiao Long, Taku Komura, Wenping Wang
                   </div>
                   <div class="paper_venue"> <b>ECCV 2022</b> </div>
 				  <div class="paper_materials">
@@ -391,20 +264,13 @@
 			<tr>
                <td class="image-column">
 				  <div class="demo-video"> <video width=100% height=100% muted autoplay loop>
-					<source src="images/neuray.mp4" type="video/mp4">
+					<source src="images/neuray-lr.mp4" type="video/mp4">
 				  </video></div>
                </td>
                <td class="description-column">
                   <div class="paper_title">Neural Rays for Occlusion-aware Image-based Rendering</div>
                   <div class="paper_authors">
-					 <a class="author" ><b>Yuan Liu</b></a>,		  
-					 <a class="author" target=_blank href="https://pengsida.net/">Sida Peng</a>,
-					 <a class="author" target=_blank href="https://lingjie0206.github.io/">Lingjie Liu</a>,	  
-					 <a class="author" target=_blank href="https://www.cs.cornell.edu/~qqw/">Qianqian Wang</a>,
-					 <a class="author" target=_blank href="https://totoro97.github.io/about.html">Peng Wang</a>,
-                     <a class="author" target=_blank href="http://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a>,
-                     <a class="author" target=_blank href="https://xzhou.me/">Xiaowei Zhou</a>,
-                     <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>		  
+                     <b>Yuan Liu</b>, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, Wenping Wang		  
                   </div>
                   <div class="paper_venue"> <b>CVPR 2022</b> </div>
 				  <div class="paper_materials">
@@ -416,27 +282,6 @@
                </td>
             </tr>
 			
-			<tr>
-               <td class="image-column">
-                  <img src="./images/yoho.jpg" height=100px width=140px>
-               </td>
-               <td class="description-column">
-                  <div class="paper_title">You Only Hypothesize Once: Point Cloud Registration with Rotation-equivariant Descriptors</div>
-                  <div class="paper_authors">	  
-					 <a class="author" target=_blank href="https://scholar.google.com.hk/citations?user=YAdDCr0AAAAJ">Haiping Wang*</a>,
-					 <a class="author" ><b>Yuan Liu</b>*</a>,	
-					 <a class="author" target=_blank href="https://dongzhenwhu.github.io/">Zhen Dong†</a>,
-                  <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>		  
-                  </div>
-                  <div class="paper_venue"> <b>ACM MM 2022</b> </div>
-				  <div class="paper_materials">
-                  <span class="link"><a target=_blank href="https://arxiv.org/abs/2109.00182">[Paper]</a></span>
-				  <span class="link"><a target=_blank href="https://hpwang-whu.github.io/YOHO/">[Project Page]</a></span>
-                  <span class="link"><a target=_blank href="https://github.com/HpWang-whu/YOHO">[Code]</a></span>
-
-				  </div>
-               </td>
-            </tr>
 			
 			<tr>
                <td class="image-column">
@@ -446,13 +291,8 @@
                </td>
                <td class="description-column">
                   <div class="paper_title">NeuS: Learning Neural Implicit Surfaces by Volume Rendering for Multi-view Reconstruction</div>
-                  <div class="paper_authors">	  
-					 <a class="author" target=_blank href="https://totoro97.github.io/about.html">Peng Wang</a>,
-					 <a class="author" target=_blank href="https://lingjie0206.github.io/">Lingjie Liu</a>,	  
-					 <a class="author" ><b>Yuan Liu</b></a>,	
-                     <a class="author" target=_blank href="http://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a>,
-					 <a class="author" target=_blank href="https://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a>,
-                     <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>		  
+                  <div class="paper_authors">
+                     Peng Wang, Lingjie Liu, <b>Yuan Liu</b>, Christian Theobalt, Taku Komura, Wenping Wang		  
                   </div>
                   <div class="paper_venue"> <b>NeurIPS 2021 (Spotlight)</b> </div>
 				  <div class="paper_materials">
@@ -463,212 +303,81 @@
 				  </div>
                </td>
             </tr>
-			
+					
 			<tr>
                <td class="image-column">
-                  <img src="./images/adafit.png" height=100px width=140px>
+               <img src="./images/pvnet.png" class="publication-image">
                </td>
                <td class="description-column">
-                  <div class="paper_title">AdaFit: Rethinking Learning-based Normal Estimation on Point Clouds</div>
-                  <div class="paper_authors">	  
-					 <a class="author" target=_blank href="https://runsong123.github.io/">Runsong Zhu*</a>,
-					 <a class="author" ><b>Yuan Liu</b>*</a>,	
-					 <a class="author" target=_blank href="https://dongzhenwhu.github.io/">Zhen Dong</a>,
-					 <a class="author" target=_blank>Tengping Jiang</a>, 
-					 <a class="author" target=_blank>Yuan Wang</a>, 
-                     <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>,
-					 <a class="author" target=_blank href="http://www.lmars.whu.edu.cn/enbisheng-yang/">Bisheng Yang</a>
-
-                  </div>
-                  <div class="paper_venue"> <b>ICCV 2021 (Oral)</b> </div>
-				  <div class="paper_materials">
-                  <span class="link"><a target=_blank href="https://arxiv.org/abs/2108.05836">[Paper]</a></span>
-				  <span class="link"><a target=_blank href="https://runsong123.github.io/AdaFit/">[Project Page]</a></span>
-                  <span class="link"><a target=_blank href="https://github.com/Runsong123/AdaFit">[Code]</a></span>
-
-				  </div>
-               </td>
-            </tr>
-			
-			<tr>
-               <td class="image-column">
-                  <img src="./images/point2skeleton.png" height=100px width=140px>
-               </td>
-               <td class="description-column">
-                  <div class="paper_title">Point2Skeleton: Learning Skeletal Representations from Point Clouds</div>
-                  <div class="paper_authors">
-                     <a class="author" target=_blank href="https://clinplayer.github.io/">Cheng Lin</a>,	
-					 <a class="author" target=_blank href="https://enigma-li.github.io/">Changjian Li</a>,		  
-					 <a class="author" ><b>Yuan Liu</b></a>,		  
-					 <a class="author" target=_blank href="https://scholar.google.com/citations?user=UhjTC7AAAAAJ">Nenglun Chen</a>,		  
-                     <a class="author" target=_blank href="https://i.cs.hku.hk/~ykchoi/">Yi-King Choi</a>,		  
-                     <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>		  
-                  </div>
-                  <div class="paper_venue"> <b>CVPR 2021 (Oral)</b> </div>
-				  <div class="paper_materials">
-                  <span class="link"><a target=_blank href="https://arxiv.org/abs/2012.00230">[Paper]</a></span>
-				  <span class="link"><a target=_blank href="https://enigma-li.github.io/projects/point2skeleton/point2skeleton.html">[Project Page]</a></span>
-                  <span class="link"><a target=_blank href="https://github.com/clinplayer/Point2Skeleton">[Code]</a></span>
-
-				  </div>
-               </td>
-            </tr>
-			
-			
-			<tr>
-               <td class="image-column">
-                  <img src="./images/lmcnet.png" height=100px width=140px>
-               </td>
-               <td class="description-column">
-                  <div class="paper_title">Learnable Motion Coherence for Correspondence Pruning</div>
-                  <div class="paper_authors">
-				     <a class="author" ><b>Yuan Liu</b></a>,
-					 <a class="author" target=_blank href="https://lingjie0206.github.io/">Lingjie Liu</a>,
-                     <a class="author" target=_blank href="https://clinplayer.github.io/">Cheng Lin</a>,	
-                     <a class="author" target=_blank href="https://dongzhenwhu.github.io/">Zhen Dong</a>,
-                     <a class="author" target=_blank href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>
-                  </div>
-                  <div class="paper_venue"> <b>CVPR 2021</b> </div>
-				  <div class="paper_materials">
-                  <span class="link"><a target=_blank href="https://arxiv.org/abs/2011.14563">[Paper]</a></span>
-				  <span class="link"><a target=_blank href="https://liuyuan-pal.github.io/LMCNet/">[Project Page]</a></span>
-                  <span class="link"><a target=_blank href="https://github.com/liuyuan-pal/LMCNet">[Code]</a></span>
-
-				  </div>
-               </td>
-            </tr>
-			
-			
-			<tr>
-               <td class="image-column">
-                  <img src="./images/gift.png" class="publication-image">
-               </td>
-               <td class="description-column">
-                  <div class="paper_title">GIFT: Learning Transformation-Invariant Dense Visual Descriptors via Group CNNs</div>
-                  <div class="paper_authors">
-				     <a class="author" ><b>Yuan Liu</b></a>,
-					 <a class="author" target=_blank href="https://zehongs.github.io/">Zehong Shen</a>,
-					 <a class="author" target=_blank href="https://www.zhixuanlin.com/">Zhixuan Lin</a>,  
-					 <a class="author" target=_blank href="https://pengsida.net/">Sida Peng</a>, 
-					 <a class="author" target=_blank href="http://www.cad.zju.edu.cn/home/bao/">Hujun Bao</a>, 
-                     <a class="author" target=_blank href="https://xzhou.me/">Xiaowei Zhou</a>	  
-                  </div>
-                  <div class="paper_venue"> <b>NeurIPS 2019</b> </div>
-				  <div class="paper_materials">
-                  <span class="link"><a target=_blank href="https://arxiv.org/abs/1911.05932">[Paper]</a></span>
-				  <span class="link"><a target=_blank href="https://zju3dv.github.io/GIFT/">[Project Page]</a></span>
-                  <span class="link"><a target=_blank href="https://github.com/zju3dv/GIFT">[Code]</a></span>
-
-				  </div>
-               </td>
-            </tr>
-			
-			
-			<tr>
-               <td class="image-column">
-                  <img src="./images/pvnet.png" class="publication-image">
-               </td>
-               <td class="description-column">
-                  <div class="paper_title">PVNet: Pixel-wise Voting Network for 6DoF Pose Estimation</div>
-                  <div class="paper_authors">
-					 <a class="author" target=_blank href="https://pengsida.net/">Sida Peng*</a>, 
-				     <a class="author" ><b>Yuan Liu</b>*</a>,
-                     <a class="author" target=_blank href="https://www.cs.utexas.edu/~huangqx/">Qixing Huang</a>,	
-                     <a class="author" target=_blank href="https://xzhou.me/">Xiaowei Zhou</a>,
-					 <a class="author" target=_blank href="http://www.cad.zju.edu.cn/home/bao/">Hujun Bao</a>
-                  </div>
+               <div class="paper_title">PVNet: Pixel-wise Voting Network for 6DoF Pose Estimation</div>
+               <div class="paper_authors">
+                  Sida Peng*, <b>Yuan Liu</b>*, Qixing Huang, Xiaowei Zhou, Hujun Bao
+               </div>
                   <div class="paper_venue"> <b>CVPR 2019 (Oral)</b></div>
 				  <div class="paper_materials">
                   <span class="link"><a target=_blank href="https://arxiv.org/abs/1812.11788">[Paper]</a></span>
-				  <span class="link"><a target=_blank href="https://zju3dv.github.io/pvnet/">[Project Page]</a></span>
+				      <span class="link"><a target=_blank href="https://zju3dv.github.io/pvnet/">[Project Page]</a></span>
                   <span class="link"><a target=_blank href="https://github.com/zju3dv/pvnet">[Code]</a></span>
-
 				  </div>
                </td>
             </tr>
 			
-			<tr>
-               <td class="image-column">
-                  <img src="./images/road.png" class="publication-image">
-               </td>
-               <td class="description-column">
-                  <div class="paper_title">3D Local Feature BKD to Extract Road Information from Mobile Laser Scanning Point Clouds</div>
-                  <div class="paper_authors">
-					 <a class="author" target=_blank href="http://www.lmars.whu.edu.cn/enbisheng-yang/">Bisheng Yang</a>,
-				     <a class="author" ><b>Yuan Liu</b></a>,
-                 <a class="author" target=_blank href="https://dongzhenwhu.github.io/">Zhen Dong</a>,
-					 <a class="author" target=_blank href="https://scholar.google.ch/citations?user=0Ds4eg8AAAAJ">Fuxun Liang</a>,
-					 <a class="author" target=_blank>Bijun Li</a>,
-					 <a class="author" target=_blank>Xiangyang Peng</a>
-                  </div>
-                  <div class="paper_venue"> <b>ISPRS Journal of Photogrammetry and Remote Sensing, 2017</b></div>
-				  <div class="paper_materials">
-                  <span class="link"><a target=_blank href="https://www.sciencedirect.com/science/article/abs/pii/S0924271617300175">[Paper]</a></span>
-				  </div>
-               </td>
-            </tr>
-			
-			<tr>
-               <td class="image-column">
-                  <img src="./images/bsc.png" class="publication-image">
-               </td>
-               <td class="description-column">
-                  <div class="paper_title">A Novel Binary Shape Context for 3D Local Surface Description</div>
-                  <div class="paper_authors">
-                     <a class="author" target=_blank href="https://dongzhenwhu.github.io/">Zhen Dong</a>,
-					 <a class="author" target=_blank href="http://www.lmars.whu.edu.cn/enbisheng-yang/">Bisheng Yang</a>,
-				     <a class="author" ><b>Yuan Liu</b></a>,
-					 <a class="author" target=_blank href="https://scholar.google.ch/citations?user=0Ds4eg8AAAAJ">Fuxun Liang</a>,
-					 <a class="author" target=_blank>Bijun Li</a>,
-					 <a class="author" target=_blank href="https://www.researchgate.net/profile/Yufu-Zang">Yufu Zang</a>
-                  </div>
-                  <div class="paper_venue"> <b>ISPRS Journal of Photogrammetry and Remote Sensing, 2017</b></div>
-				  <div class="paper_materials">
-                  <span class="link"><a target=_blank href="https://www.sciencedirect.com/science/article/abs/pii/S0924271617300199">[Paper]</a></span>
-				  </div>
-               </td>
-            </tr>
-			
-			<tr>
-               <td class="image-column">
-                  <img src="./images/agg.png" class="publication-image">
-               </td>
-               <td class="description-column">
-                  <div class="paper_title">Computing Multiple Aggregation Levels and Contextual Features for Road Facilities Recognition Using Mobile Laser Scanning Data</div>
-                  <div class="paper_authors">
-					 <a class="author" target=_blank href="http://www.lmars.whu.edu.cn/enbisheng-yang/">Bisheng Yang</a>,
-					 <a class="author" target=_blank href="http://jszy.whu.edu.cn/dongzhen/zh_CN/index.htm">Zhen Dong</a>,
-				     <a class="author" ><b>Yuan Liu</b></a>,
-					 <a class="author" target=_blank href="https://scholar.google.ch/citations?user=0Ds4eg8AAAAJ">Fuxun Liang</a>,
-					 <a class="author" target=_blank>Yongjun Wang</a>
-                  </div>
-                  <div class="paper_venue"> <b>ISPRS Journal of Photogrammetry and Remote Sensing, 2017</b></div>
-				  <div class="paper_materials">
-                  <span class="link"><a target=_blank href="https://www.sciencedirect.com/science/article/abs/pii/S0924271617301557">[Paper]</a></span>
-				  </div>
-               </td>
-            </tr>
-			
-			<tr>
-               <td class="image-column">
-                  <img src="./images/sfp.png" class="publication-image">
-               </td>
-               <td class="description-column">
-                  <div class="paper_title">Automatic Registration of Large-scale Urban Scene Point Clouds Based on Semantic Feature Points</div>
-                  <div class="paper_authors">
-					 <a class="author" target=_blank href="http://www.lmars.whu.edu.cn/enbisheng-yang/">Bisheng Yang</a>,
-					 <a class="author" target=_blank href="https://dongzhenwhu.github.io/">Zhen Dong</a>,
-					 <a class="author" target=_blank href="https://scholar.google.ch/citations?user=0Ds4eg8AAAAJ">Fuxun Liang</a>,
-				     <a class="author" ><b>Yuan Liu</b></a>
-                  </div>
-                  <div class="paper_venue"> <b>ISPRS Journal of Photogrammetry and Remote Sensing, 2016</b></div>
-				  <div class="paper_materials">
-                  <span class="link"><a target=_blank href="https://www.sciencedirect.com/science/article/abs/pii/S092427161500266X">[Paper]</a></span>
-				  </div>
-               </td>
-            </tr>
 			
          </table>
+
+
+
+         <a name="mentor"></a>
+         <h3>Mentoring</h3>
+         <hr>
+         I spent wonderful time working with talented master or junior PhD students on some interesting research projects as follows.
+         
+   
+         <ul>
+            <li>
+            <a href="https://hpwang-whu.github.io/">Haiping Wang</a>: 
+            <strong>YOHO</strong> (<a href="https://hpwang-whu.github.io/YOHO/">MM'22</a>), 
+            <strong>RoReg</strong> (<a href="https://hpwang-whu.github.io/RoReg/">TPAMI'23</a>)
+            <strong>SGHR</strong> (<a href="https://github.com/WHU-USI3DV/SGHR">CVPR'23</a>)
+            <strong>FreeReg</strong> (<a href="https://whu-usi3dv.github.io/FreeReg/">ICLR'23</a>)
+            </li>
+            <ul>
+               <li>PhD at WHU.</li>
+            </ul>
+            <li>
+            <a href="https://runsong123.github.io/">Runsong Zhu</a>: 
+            <strong>AdaFit</strong> (<a href="https://runsong123.github.io/AdaFit/">ICCV'21</a>)
+            </li>
+            <ul><li>Master at WHU, Ph.D. at CUHK</li></ul>
+            <li>
+            <a href="https://zzzyuqing.github.io/">Yuqing Zhang</a>: 
+            <strong>DreamMat</strong> (<a href="https://zzzyuqing.github.io/dreammat.github.io/">SIGGRAPH'24</a>)
+            </li>
+            <ul><li>Master at ZJU</li></ul>
+            <li>
+               <a href="https://shanemankiw.github.io/">Jionghao Wang</a>:
+               <strong>SO-SMPL</strong> (<a href="https://shanemankiw.github.io/SO-SMPL/">arXiv'23</a>)
+               <ul><li>Master at SJTU, PhD at TAMU</li></ul>
+            </li>
+            <li>
+            <a href="https://scholar.google.com/citations?user=8eTLCkwAAAAJ&hl=zh-CN">Peng Li</a>: 
+            <strong>Era3D</strong> (<a href="https://penghtyx.github.io/Era3D/">arXiv'24</a>)
+            <ul><li>PhD at HKUST</li></ul>
+            </li>
+            <li>
+            <a href="https://github.com/Asparagus15">Wenqi Jiangying</a>: 
+            <strong>GaussianShader</strong> (<a href="https://asparagus15.github.io/GaussianShader.github.io/">CVPR'24</a>)
+            <ul><li>PhD at ShanghaiTech University</li></ul>
+            </li>
+            <li>
+            <a href="https://github.com/liuar0512">Anran Liu</a>: 
+            <strong>NeRFBuff</strong> (<a href="https://ieeexplore.ieee.org/abstract/document/10508469/">TVCG'24</a>),
+            <strong>Part123</strong> (<a href="https://liuar0512.github.io/part123_official_page/">SIGGRAPH'24</a>)
+            <ul><li>PhD at HKU</li></ul>
+            </li>
+   
+         </ul>
+
       </div>
 	  
       <!-- End of the publication -->
@@ -699,7 +408,8 @@
                <!-- </td> -->
          <!-- </table> -->
       <!-- </div> -->
-	  
+
+
 
 	
 	<div class="content">
@@ -707,7 +417,7 @@
 	<br>
 			<hr>
 			<div align="center">
-				<b>&copy;Yuan Liu.</b>&nbsp Last updated: 5th Dec., 2023.
+				<b>&copy;Yuan Liu.</b>&nbsp Last updated: 12th Jun., 2024.
 			</div>
 			<br>
 	<br>
