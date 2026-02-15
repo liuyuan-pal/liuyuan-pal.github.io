@@ -1,0 +1,373 @@
+header {
+    width: 100%;
+    height: 60px;
+    margin-top: 0px;
+    text-align: left;
+    background-color: #ffffff;
+    position: fixed;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    clear: both;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+p.bio{
+    text-align: justify;
+    line-height: 1.6;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+a img {
+    border: none;
+}
+
+hr {
+	border: none;
+	border-top: 1.0px solid #ddd;
+	margin: 5px 0;
+}
+
+p {
+	margin: 0.4em 0em
+  }
+
+p.news{
+	color:#BA2F39
+}
+
+div.content {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ffffff;
+    max-width: 1000px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    overflow: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.publication-table {
+    width: 100%;
+    border-spacing: 0 20px;
+}
+
+img.publication-image {
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* 居中显示 */
+    display: block; /* 块级元素 */
+}
+
+img.publication-image:hover {
+    transform: scale(1.05);
+}
+
+td.image-column {
+    width: 220px;
+    height: 120px; /* 增加高度以获得更好的间距 */
+    padding-left: 30px;
+    vertical-align: middle; /* 垂直居中 */
+    text-align: center; /* 水平居中 */
+}
+
+td.description-column {
+    width: 780px;
+    height: 120px; /* 与image-column保持一致 */
+    text-align: left;
+    vertical-align: middle; /* 垂直居中 */
+    padding-left: 20px;
+}
+
+td.general-item-right {
+    padding: 10px;
+    background-color: transparent;
+}
+
+td.general-item-left {
+    width: 100px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+span.link {
+    padding-right: 10px;
+}
+
+img.img_teaser {
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+}
+
+
+div.project_headline,div.project_video {
+    text-align: center;
+/*    max-width: 100%;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+div.img {
+    display: inline-block;
+    zoom: 1;
+    display *: inline;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+    text-align: justify:
+}
+
+div.stress {
+    color: #AADD33
+}
+
+div.top_block {
+    padding-top: 50px;
+}
+
+div.bottom_block {
+    padding-bottom: 30px;
+}
+
+div.paper_title {
+    font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 5px;
+    color: #222;
+}
+
+a.author {
+    font-size: 14px;
+}
+
+div.author{
+    font-size: 14px;
+}
+
+div.paper_venue {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+div.paper_materials{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* 标签切换样式 */
+.tab-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tab-button {
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 5px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.tab-button:hover {
+    background-color: #ddd;
+}
+
+.tab-button.active {
+    background-color: #4c81c9;
+    color: white;
+}
+
+/* News 板块样式 */
+.news-container {
+    margin-bottom: 30px;
+    max-height: 150px; /* 减小高度，只显示约5个新闻项 */
+    overflow-y: auto; /* 超出部分显示滚动条 */
+}
+
+.news-item {
+    padding: 4px 15px; /* 减小上下内边距 */
+    margin-bottom: 2px; /* 减小底部间距 */
+    border-left: 3px solid #4c81c9;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    line-height: 1.3; /* 减小行高 */
+}
+
+.news-item:hover {
+    transform: translateX(5px);
+}
+
+.news-date {
+    font-weight: bold;
+    color: #4c81c9;
+    margin-right: 10px;
+}
+
+.news-content {
+    display: inline;
+}
+
+/* 导航栏样式优化 */
+div.tab {
+    font-size: 22px; /* 增大字体 */
+    max-width: 1000px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    height: 60px;
+    line-height: 60px;
+}
+
+div.tab-name, div.tab-link {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+div.tab-link a {
+    padding: 8px 15px; /* 增大内边距 */
+    border-radius: 6px; /* 增大圆角 */
+    transition: all 0.3s ease;
+    font-size: 20px; /* 增大字体 */
+    font-weight: 600; /* 加粗字体 */
+    color: #333; /* 加深颜色 */
+    text-decoration: none;
+}
+
+div.tab-link a:hover {
+    background-color: #4c81c9; /* 蓝色背景 */
+    color: white; /* 白色文字 */
+    text-decoration: none;
+}
+
+div.tab-link {
+    float: right;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+
+a sup{
+  display:inline-block;
+  line-height:1.1em;
+  text-decoration:none;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+/* 个人信息区域新布局 */
+.profile-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 80px 0 20px 0; /* 增加顶部内边距，为固定导航栏留出空间 */
+}
+
+/* 社交链接带文字样式 */
+.social-links-with-text {
+   margin-top: 10px;
+   display: flex;
+   gap: 30px;
+}
+
+.social-item {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   height: 20px;
+}
+
+.social-icon {
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background-color: transparent;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 20px;
+   flex-shrink: 0;
+}
+
+.social-icon img {
+   width: 20px;
+   height: 20px;
+   vertical-align: middle;
+   filter: brightness(0.6);
+}
+
+.social-text {
+   font-size: 14px;
+   color: #333;
+   font-weight: 500;
+   text-decoration: none;
+   transition: all 0.3s ease;
+   cursor: pointer;
+   line-height: 20px;
+   display: inline-block;
+   margin-top: 4px;
+}
+
+.social-text:hover {
+   color: #4c81c9;
+   transform: translateY(-1px);
+}
+
+.profile-header {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.profile-image {
+    flex: 0 0 220px;
+    margin-right: 30px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.profile-bio {
+    clear: both;
+    padding-top: 10px;
+}
