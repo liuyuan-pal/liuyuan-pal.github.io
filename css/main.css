@@ -59,6 +59,11 @@ div.content {
     margin-bottom: 30px;
 }
 
+/* 为固定导航栏预留空间，避免出版物页首行被遮挡 */
+.publication-content {
+    padding-top: 50px;
+}
+
 .publication-table {
     width: 100%;
     border-spacing: 0 20px;
@@ -370,4 +375,207 @@ h3{
 .profile-bio {
     clear: both;
     padding-top: 10px;
+}
+[id] {
+  scroll-margin-top: 60px; /* 数值越大，跳转后越靠后（向下留空越多） */
+}
+
+/* Lab page */
+.lab-intro {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.lab-intro-text {
+    margin: 12px 0 8px;
+    line-height: 1.6;
+}
+
+.research-directions {
+    margin: 8px 0;
+    padding-left: 26px;
+}
+
+.research-directions li {
+    margin: 3px 0;
+}
+
+.lab-github-line {
+    margin-top: 10px;
+}
+
+.lab-members {
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.member-section-title {
+    margin: 18px 0 4px;
+    font-size: 20px;
+    color: #222;
+}
+
+.lab-member-table {
+    display: block;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.lab-member-table tbody {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 28px;
+    row-gap: 14px;
+}
+
+.lab-member-table tr {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    align-items: center;
+    min-width: 0;
+    min-height: 120px;
+}
+
+.member-photo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    background-color: #eef3f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lab-member-photo-column {
+    width: auto;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.member-photo-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #777;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.member-info {
+    min-width: 0;
+    padding: 8px 6px;
+    vertical-align: middle;
+}
+
+.member-info h5 {
+    margin: 0 0 4px;
+    font-size: 19px;
+}
+
+.member-info h5 a {
+    color: inherit;
+}
+
+.member-role {
+    margin-bottom: 5px;
+    color: #444;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.member-info p {
+    margin: 3px 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.member-note {
+    color: #666;
+    font-style: italic;
+}
+
+.visiting-title {
+    margin-top: 28px;
+}
+
+.visitor-table-wrap {
+    overflow-x: auto;
+}
+
+.visitor-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.visitor-table th,
+.visitor-table td {
+    padding: 9px 12px;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: left;
+}
+
+.visitor-table th {
+    background-color: transparent;
+    color: #333;
+    font-weight: 600;
+}
+
+.lab-footer {
+    padding-top: 5px;
+    padding-bottom: 22px;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width: 850px) {
+    .lab-member-table tbody {
+        grid-template-columns: 1fr;
+    }
+
+    .lab-page div.tab-link {
+        margin-right: 4px;
+        padding-right: 4px;
+    }
+
+    .lab-page div.tab-link a {
+        padding: 7px 8px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 560px) {
+    .lab-page header,
+    .lab-page div.tab {
+        height: 52px;
+        line-height: 52px;
+    }
+
+    .member-photo {
+        width: 82px;
+        height: 82px;
+    }
+
+    .lab-member-table tr {
+        grid-template-columns: 98px minmax(0, 1fr);
+    }
+
+    .lab-member-photo-column {
+        width: 100px;
+        padding: 0 8px 0 0;
+    }
+
+    .member-info {
+        padding: 8px 0 8px 8px;
+    }
+
+    .visitor-table th,
+    .visitor-table td {
+        padding: 10px 12px;
+        white-space: nowrap;
+    }
 }
