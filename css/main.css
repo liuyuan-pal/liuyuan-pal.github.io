@@ -415,20 +415,15 @@ h3{
     color: #222;
 }
 
-.lab-member-table {
-    display: block;
-    width: 100%;
-    border-spacing: 0;
-}
-
-.lab-member-table tbody {
+.lab-member-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 28px;
     row-gap: 14px;
+    width: 100%;
 }
 
-.lab-member-table tr {
+.lab-member {
     display: grid;
     grid-template-columns: 120px minmax(0, 1fr);
     align-items: center;
@@ -437,9 +432,15 @@ h3{
 }
 
 .member-photo {
+    display: block;
     width: 100px;
     height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
     margin: 0 auto;
+    box-sizing: border-box;
     border-radius: 5px;
     object-fit: cover;
     object-position: center;
@@ -533,7 +534,7 @@ h3{
 }
 
 @media (max-width: 850px) {
-    .lab-member-table tbody {
+    .lab-member-grid {
         grid-template-columns: 1fr;
     }
 
@@ -558,14 +559,18 @@ h3{
     .member-photo {
         width: 82px;
         height: 82px;
+        min-width: 82px;
+        max-width: 82px;
+        min-height: 82px;
+        max-height: 82px;
     }
 
-    .lab-member-table tr {
+    .lab-member {
         grid-template-columns: 98px minmax(0, 1fr);
     }
 
     .lab-member-photo-column {
-        width: 100px;
+        width: 98px;
         padding: 0 8px 0 0;
     }
 
