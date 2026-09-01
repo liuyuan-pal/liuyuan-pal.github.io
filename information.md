@@ -37,4 +37,9 @@
 | [Peng Li](https://penghtyx.github.io/yuki-lipeng/) | 2026 PhD          |Researcher@Bytedance |
 
 
-## <summary><strong>Works</strong></summary>
+### Faculty
+
+| Name                           | Role                                      |Misc. |
+|--------------------------------|-------------------------------------------|-------------------------------------------|
+| [Yuan Liu](https://liuyuan-pal.github.io/) | Assistant Professor           | PostDoc@NTU, PhD@HKU |
+| [Haiping Wang](https://hpwang-whu.github.io/) | Research Assistant Professor           | PhD@WHU |
